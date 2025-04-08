@@ -1,0 +1,22 @@
+body {
+    background-image: url('Images/Bg_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; 
+}
+header{
+    background-color: #ff3366;
+    color: aliceblue;
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+.card-title{
+    color: #ff3366;
+}
+footer{
+    background-color: #ff3366;
+    color: white;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa; 
+}
+header{
+    background-color: #ff0066;
+    color: #f8f9fa;
+    
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.hero-section {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+.btn-custom {
+    background-color: #ff0066;
+    border-color: #ff0066;
+    color: #fff; 
+}
+
+.btn-custom:hover {
+    background-color: #e60059; 
+    border-color: #e60059; 
+}
+
+footer {
+    background-color: #ff0066;
+    color: white;
+    padding: 20px 0;
+}
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+    }
+    
+    .my-profile-image img {
+        width: 50%;
+    }
+}
